@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Task Manager</title>
+    <link rel="stylesheet" href="meow.css">
+</head>
+<body>
+    <div class="header">
+        <span class="paw-icon">🐾</span>
+        <span class="title">PawModoro</span>
+        <span class="paw-icon">🐾</span>
+    </div>
+    
+    <div class="container">
+        <div class="left-column">
+            <h2>Your Tasks</h2>
+            <input type="text" id="taskInput" placeholder="Enter a task 🧶" />
+            <button id="addTaskButton">Add Task 🐾</button>
+            <ul id="taskList"></ul>
+        </div>
+
+        <div class="right-column">
+            <h2>Pomodoro Timer</h2>
+            <div id="timerDisplay">25:00</div>
+            <button id="startStopButton">Start Timer!🕒</button>
+
+            <section id="motivationSection" class="hidden">
+                <p>Keep Wokring! 🐾</p>
+            </section>
+
+            <button id="generateRandomTaskButton">Generate Random Task</button>
+            <p id="randomTaskOutput"></p>
+        </div>
+    </div>
+
+    <script src="meow.js"></script>
+</body>
+</html>
